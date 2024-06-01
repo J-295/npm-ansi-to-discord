@@ -2,8 +2,8 @@
     "name": "ansi-to-discord",
     "version": "0.0.0",
     "description": "Make text containing ANSI escape sequences compatible with Discord's ANSI codeblocks.",
-    "main": "index.js",
-    "types": "index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/J-295/npm-ansi-to-discord.git"
@@ -15,5 +15,9 @@
     "author": "J-295",
     "bugs": {
         "url": "https://github.com/J-295/npm-ansi-to-discord/issues"
+    },
+    "devDependencies": {
+        "@types/node": "^20.13.0",
+        "typescript": "^5.4.5"
     }
 }
