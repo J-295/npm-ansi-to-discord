@@ -1,6 +1,6 @@
 {
     "name": "ansi-to-discord",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Make text containing ANSI escape sequences compatible with Discord's ANSI codeblocks.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
